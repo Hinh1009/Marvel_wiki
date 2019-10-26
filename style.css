@@ -1,1 +1,93 @@
-
+*{margin: 0px; padding: 0px;}
+li{list-style: none;}
+a{ text-decoration: none;
+    color: #FFF;
+    font-size: 15px;}
+.clear{clear: both;}
+.wrapper{
+    width: 900px;
+    height: 600px;
+    background-color:rgb(197, 184, 184);
+    margin: 0px auto;
+}
+.main_menu{
+    background: #00A69B;
+    margin-top: 0px;
+    text-align: center;  
+}
+.main_menu>ul>li{
+    float: left;
+    padding: 12px 35px;
+    position: relative;
+    border-right: 1px dotted #ACACAC;
+}
+.main_menu>ul>li:last-child{
+    border-right: none;
+}
+.main_menu>ul>li:hover ul{
+    display: block;
+}
+.main_menu ul li:hover{
+    background-color: #9CD08F; 
+    transition: all 0.25s;
+}
+.container{
+    background: white;
+    text-align: center;
+}
+.main_menu>ul>li>input{
+    width: 111px;
+}
+.main_menu>ul>li>img{
+    width: 20px;
+    height: 12px;
+    margin-top: 2px;
+}
+.main_menu>ul>li>button>img{
+    width: 20px;
+    height: 12px;
+}
+.slider{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 600px;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0; 
+    display: none;
+}
+.show{
+    display: block;
+}
+.slide:first-child{
+    background: url("anh/cfm_vn_2.jpg") no-repeat center center/cover; 
+    width: 900px;
+    height: 600px;
+}
+.slide:nth-child(2){
+    background: url("anh/3_32429.jpg") no-repeat center center/cover; 
+    width: 900px;
+    height: 600px;
+}
+.slide:nth-child(3){
+    background: url("anh/tải\ xuống.jpg") no-repeat center center/cover; 
+    width: 900px;
+    height: 600px;
+}
+.content{
+    position: absolute;
+    top:75px;  
+}
+content h1{
+    font-size: 39px;
+    font-weight: 500;
+    text-shadow: 1px 0 2px red;
+    color:white;
+}
