@@ -1,93 +1,110 @@
-*{margin: 0px; padding: 0px;}
-li{list-style: none;}
-a{ text-decoration: none;
-    color: #FFF;
-    font-size: 15px;}
-.clear{clear: both;}
-.wrapper{
-    width: 900px;
-    height: 600px;
-    background-color:rgb(197, 184, 184);
-    margin: 0px auto;
+.logo-container {
+    display: flex;
+    justify-content: center;
 }
-.main_menu{
-    background: #00A69B;
-    margin-top: 0px;
-    text-align: center;  
+.logo {
+    z-index: -1;
 }
-.main_menu>ul>li{
-    float: left;
-    padding: 12px 35px;
-    position: relative;
-    border-right: 1px dotted #ACACAC;
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  }
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    height: 40px;
 }
-.main_menu>ul>li:last-child{
-    border-right: none;
+span:hover {
+    background-color: #9e0808;
+    color: wheat;
+    cursor: pointer;
 }
-.main_menu>ul>li:hover ul{
-    display: block;
+#span1 {
+   width: 10%;
+   border-right: solid white 1px;
+
 }
-.main_menu ul li:hover{
-    background-color: #9CD08F; 
-    transition: all 0.25s;
+#span2 {
+    width: 35%;
+    border-right: solid white 1px;
 }
-.container{
-    background: white;
-    text-align: center;
+#span3 {
+    width: 20%;  
+    border-right: solid white 1px;
 }
-.main_menu>ul>li>input{
-    width: 111px;
+#span4 {
+    width: 25%;
+    border-right: solid white 1px;
 }
-.main_menu>ul>li>img{
-    width: 20px;
-    height: 12px;
-    margin-top: 2px;
+#span5 {
+    width: 10%;
 }
-.main_menu>ul>li>button>img{
-    width: 20px;
-    height: 12px;
-}
-.slider{
-    position: relative;
-    margin: 0px;
-    padding: 0px;
-    width: 100vw;
-    height: 600px;
-    overflow: hidden;
-}
-.slide{
+.menu-container {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top:0;
-    left:0; 
-    display: none;
 }
-.show{
-    display: block;
+
+.menu {
+    display: flex;
+    justify-content: left;
+    margin-top: -11px;
+    height: 40px;
+    background:#e80211;
+    font-weight: bold;
+    text-align: center;
 }
-.slide:first-child{
-    background: url("anh/cfm_vn_2.jpg") no-repeat center center/cover; 
-    width: 900px;
-    height: 600px;
+.search-bar {
+    width: 400px; 
+    background-color:white;
+    color: #e80211;
+    text-align: center;
+    border: solid  black 1.5px;
+    
 }
-.slide:nth-child(2){
-    background: url("anh/3_32429.jpg") no-repeat center center/cover; 
-    width: 900px;
-    height: 600px;
-}
-.slide:nth-child(3){
-    background: url("anh/tải\ xuống.jpg") no-repeat center center/cover; 
-    width: 900px;
-    height: 600px;
-}
-.content{
+/* aa */
+.dropdown-container {
+    background-color: #9e0808;
+    color: wheat;
     position: absolute;
-    top:75px;  
+    margin-top: 0%;
+    width: 100%;
 }
-content h1{
-    font-size: 39px;
-    font-weight: 500;
-    text-shadow: 1px 0 2px red;
-    color:white;
+.dropdown-header-container {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.dropdown-header {
+    text-align: center;
+    margin: 0%;
+}
+.dropdown-container {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+.column {
+    float: left;
+    width:16.4%;
+    border-left: solid white ;
+}
+#column1 {
+    border-left: none;
+}
+.column a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color:white ;
+}
+.column a:hover {
+    background-color: wheat;
+    color: #9e0808;
 }
