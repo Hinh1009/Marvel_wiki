@@ -1,0 +1,18 @@
+.head-container{
+    text-align: center; 
+}
+.a img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 6px solid yellow;
+}
+.a{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top:10px;
+}
+.a p{
+    font-size: 18px;
+    text-align: center;
+}

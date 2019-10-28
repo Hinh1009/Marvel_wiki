@@ -5,10 +5,10 @@ async function getUsers() {
     console.log(response);
     for (let i = 0; i < 50; i++) {
         document.getElementById("users-list").innerHTML += `  
-        <div>
+        <div class="a">
         <img src="${response.data.results[i].thumbnail.path}.jpg"/>
           <p> ${response.data.results[i].name} </p> 
-          <p> ${response.data.results[i].id} </p>
+          <p>id: ${response.data.results[i].id} </p>
          
         </div>
         `;
