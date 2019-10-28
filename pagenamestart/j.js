@@ -1,11 +1,5 @@
-document.getElementById('span3').addEventListener('mouseover', function() {
-    document.getElementById('dropdown').style.display = 'block';
-});
-document.getElementById('dropdown').addEventListener('mouseleave', function() {
-    document.getElementById('dropdown').style.display = 'none';
-});
 async function getUsers() {
-    var c = "a"
+    var c = "j";
     const rawResponse = await fetch("https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=" + c + "&limit=50&ts=12345&apikey=1cb8f124cfacf199eb92aa85d67dd9b3&hash=7867bd775a8bd67600140ee13563af61");
     const response = await rawResponse.json();
     console.log(response);
