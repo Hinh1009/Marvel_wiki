@@ -1,0 +1,21 @@
+.head-container {
+    text-align: center;
+}
+
+.e img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 6px solid red;
+}
+
+.e {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.e p {
+    font-size: 18px;
+    text-align: center;
+}

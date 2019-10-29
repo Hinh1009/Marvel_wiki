@@ -1,0 +1,60 @@
+body {
+    background-color: #f2e7ae;
+}
+
+.item {
+    text-align: center;
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Rouge Script', cursive;
+}
+
+.description {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    font-style: italic;
+}
+
+.description p {
+    font-size: x-large;
+    color: #6128fc;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Rouge Script', cursive;
+    color: black;
+}
+
+#name {
+    color: #6128fc;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #131c9c;
+}
+
+.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    ;
+}
+
+.films {
+    font-family: 'Rouge Script', cursive;
+}
+
+img {
+    opacity: 0.9;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
