@@ -6,7 +6,7 @@ async function getUsers() {
     for (let i = 0; i < 50; i++) {
         document.getElementById("users-list").innerHTML += `  
         <div class="a">
-        <img src="${response.data.results[i].thumbnail.path}.jpg"/>
+        <a href="../character.html?${response.data.results[i].id}"><img src="${response.data.results[i].thumbnail.path}.jpg"/></a>;
           <p> ${response.data.results[i].name} </p> 
           <p> id:${response.data.results[i].id} </p>
          
