@@ -1,0 +1,59 @@
+body {
+    background-color: khaki;
+}
+.about-us, .font-weight-light {
+    display: flex;
+    justify-content: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: brown;
+    font-style: italic;
+    font-size: 350%;
+    text-shadow: 0px 4px 0px black;
+}
+
+.description, .intro{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+
+}
+.name {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: brown; 
+    font-style: italic;
+}
+.name-container {
+    display: flex;
+    justify-content: center;
+}
+.avengers {
+    display: flex;
+    justify-content: center;
+}
+#mindx {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+  .footer {
+      text-align: center;
+  }
+  
